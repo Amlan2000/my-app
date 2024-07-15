@@ -1,0 +1,90 @@
+/* src/components/Navbar.css */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    background-color: #f7e5b1eb;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .left-logo{
+    margin-right: 1rem;
+    display: flex;
+  }
+
+  .left-logo-img {
+    align-items: left;
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+
+  }
+
+  .left-logo-text {
+    display:list-item;
+    align-items: center;
+    list-style: none;
+    padding: 2px;
+  }
+
+  
+  .navbar-logo-item {
+    color: rgb(24, 23, 23);
+    align-items: center;
+    display: inline-block;
+  }
+
+  .navbar-all-list {
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 35px;
+  }
+
+  .navbar-item{
+    list-style-type: none;
+    color: black;
+    align-items:center;
+    display: flex;
+    cursor: pointer;
+
+  }
+
+
+
+  .ham-menu{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    ;
+  }
+  
+  .ham-menu .bar{
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    margin: 4px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  
+  }
+
+  @media(max-width:768px){
+    .ham-menu{
+        display: block;
+    }
+
+
+  }
