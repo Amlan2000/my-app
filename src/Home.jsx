@@ -1,10 +1,11 @@
 import './Home.css';
-import headerImage from "./images/taj-mahal.png";
+import headerImage from "./components/images/taj-mahal.png";
+import Navbar from "./components/Navbar"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-         {/* navbar */}
+         <Navbar/>
         <div className="header-image">
         <img src={headerImage}/>
         </div>
