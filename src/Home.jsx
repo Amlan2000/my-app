@@ -1,5 +1,8 @@
+import ImageGrid from './Components/ImageGrid';
 import './Home.css';
 import headerImage from "./images/taj-mahal.png";
+
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +12,7 @@ function App() {
         <img src={headerImage}/>
         </div>
       </header>
+      <ImageGrid></ImageGrid>
     </div>
   );
 }
