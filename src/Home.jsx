@@ -1,7 +1,8 @@
-import ImageGrid from './Components/ImageGrid';
+import ImageGrid from './Components/ImageGrid/ImageGrid'
 import './Home.css';
-import headerImage from "./components/images/taj-mahal.png";
-import Navbar from "./components/Navbar"
+import headerImage from "./images/taj-mahal.png";
+import Navbar from "./Components/Navbar/Navbar"
+import Ministers from './Components/Ministers/Ministers'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         </div>
       </header>
       <ImageGrid></ImageGrid>
+      <Ministers></Ministers>
     </div>
   );
 }

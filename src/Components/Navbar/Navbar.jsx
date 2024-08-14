@@ -1,7 +1,6 @@
-// src/Navbar.js
 import React from 'react'; // Importing React and useEffect hook
 import './Navbar.css'; // Importing the CSS file for styling
-import headerlogo from './images/satyamev_jayte_logo.png'
+import headerlogo from '../../images/satyamev_jayte_logo.png'
 
 // Defining the Navbar component
 const Navbar = () => {
